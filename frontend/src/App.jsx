@@ -2,7 +2,12 @@ import React, { createContext, useContext, useEffect, useRef, useState } from "r
 import "./styles.css";
 import AdminPanel from "./AdminPanel.jsx";
 import { apiUrl, API_BASE } from "./config.js";
+import React, { createContext, useContext, useEffect, useRef, useState } from "react";
+import "./styles.css";
+import AdminPanel from "./AdminPanel.jsx";
 import { apiUrl, API_BASE } from "./config.js";
+
+const APP_NAME = "ShreeCloudStorage";
 
 const APP_NAME = "ShreeCloudStorage";
 
